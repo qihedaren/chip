@@ -1,0 +1,140 @@
+h2 {}
+h1 { color: rgb(144, 13, 164); }
+p { color: rgb(75, 39, 9); }
+
+header {
+    background-color: rgb(255, 217, 0);
+    margin: 0px 0px 10px 0px;
+    height: 100px;
+}
+
+header a {
+    color: purple solid;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 2vw;
+    border: 1px solid;
+    padding: 5px;
+}
+
+header li {
+    display: inline;
+}
+
+header ul {
+    position: absolute;
+    right: 2vw;
+    top: 0vw;
+    line-height: 80px;
+}
+
+h1 {
+    position: absolute;
+    left: 80px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(../assets/images/logo3.png);
+    background-position: left;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    width: 200px;
+    text-indent: -1500px;
+}
+
+section {
+    border: rgb(255, 217, 0) 20px;
+    margin: 0px;
+}
+
+.sharing {
+    color: rgb(26, 116, 218);
+    height: 95vh;
+    background-image: url(../assets/images/bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: first baseline;
+}
+
+.sharing h2 { font-size: 40px; }
+.sharing p {
+    font-size: 17px;
+    color: rgb(7, 89, 182);
+    margin: 8px;
+}
+.sharing a {
+    color: aqua;
+    text-decoration: none;
+    border: 3px solid;
+    padding: 32px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 30px;
+}
+.sharing li { display: inline; }
+
+.brands {
+    background-color: rgba(109, 22, 22, 0.936);
+    color: yellow;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px;
+    padding: 30px;
+    background-image: url(../assets/images/brandsbg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.brands li { display: inline; }
+.brands a {
+    text-decoration: none;
+    color: antiquewhite;
+    border: 3px solid;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.brands p {
+    font-size: 16px;
+    color: rgb(255, 183, 0);
+}
+.brands h2 { font-size: 40px; }
+
+.facts {
+    height: 400px;
+    background-color: rgb(7, 89, 182);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../assets/images/factsbg1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.facts h2 {
+    font-size: 40px;
+    color: rgb(223, 81, 25);
+}
+.facts p {
+    color: orange;
+    font-size: 16px;
+    margin: 20px;
+}
+.facts a {
+    color: blanchedalmond;
+    flex-direction: row;
+    margin: 15px;
+    padding: 20px;
+}
+
+footer {
+    color: gray;
+    font-size: 12px;
+} 
